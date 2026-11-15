@@ -22,7 +22,6 @@ typedef struct{
 typedef struct {
     pid_t pid_client;
     pid_t pid_server;
-    int n;
     int tab[NMAX];
 } Response;
 

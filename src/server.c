@@ -24,7 +24,7 @@ int main()
         exit(1);
     }
 
-    f2 = open(FIFO1, O_WRONLY);
+    f2 = open(FIFO2, O_WRONLY);
     if (f2 == -1)
     {
         perror("Mat7alech ya M3alem zouz");
@@ -50,7 +50,6 @@ int main()
 
             r.pid_client = q.pid_client;
             r.pid_server = getpid();
-            r.n = q.n;
             for (int i = 0; i < q.n; i++)
             {
                 r.tab[i] = rand() % 500;

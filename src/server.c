@@ -1,5 +1,5 @@
-#include <serv_cli_fifo.h>
-#include <Handlers_Serv.h>
+#include "serv_cli_fifo.h"
+#include "Handlers_Serv.h"
 
 int main()
 {
@@ -20,18 +20,18 @@ int main()
     f1 = open(FIFO1, O_RDONLY);
     if (f1 == -1)
     {
-        perror("Mat7alech ya M3alem");
+        perror("Mat7alech ya M3alem\n");
         exit(1);
     }
 
     f2 = open(FIFO2, O_WRONLY);
     if (f2 == -1)
     {
-        perror("Mat7alech ya M3alem zouz");
+        perror("Mat7alech ya M3alem zouz\n");
         exit(1);
     }
 
-    printf("Koll chay mrigel hatta lena barra kamel w seyess rou7ek");
+    printf("Koll chay mrigel hatta lena barra kamel w seyess rou7ek\n");
 
     /* Installation des Handlers */
     signal(SIGUSR1, hand_reveil);

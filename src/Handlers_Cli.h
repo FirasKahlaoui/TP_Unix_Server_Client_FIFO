@@ -5,10 +5,12 @@
 
 volatile sig_atomic_t server_ready = 0;
 
-void hand_reveil(int sig){
-
-    server_ready = 1;
-
+void hand_reveil(int sig)
+{
+    if (sig == SIGUSR1)
+    {
+        server_ready = 1;
+    }
 }
 
 #endif

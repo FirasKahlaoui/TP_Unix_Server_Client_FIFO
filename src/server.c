@@ -20,18 +20,18 @@ int main()
     f1 = open(FIFO1, O_RDONLY);
     if (f1 == -1)
     {
-        perror("Mat7alech ya M3alem\n");
+        perror("Erreur lors de l'ouverture du tube FIFO1");
         exit(1);
     }
 
     f2 = open(FIFO2, O_WRONLY);
     if (f2 == -1)
     {
-        perror("Mat7alech ya M3alem zouz\n");
+        perror("Erreur lors de l'ouverture du tube FIFO2");
         exit(1);
     }
 
-    printf("Koll chay mrigel hatta lena barra kamel w seyess rou7ek\n");
+    printf("Serveur démarré et en attente de requêtes.\n");
 
     /* Installation des Handlers */
     signal(SIGUSR1, hand_reveil);
@@ -46,6 +46,7 @@ int main()
         ssize_t re = read(f1, &q, size_q);
         if (re > 0 && re == size_q)
         {
+            printf("Traitement de la requête du client (PID : %d).\n", (int)q.pid_client);
 
             /* construction de la réponse */
 

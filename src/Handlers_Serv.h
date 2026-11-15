@@ -22,7 +22,7 @@ void fin_serveur(int sig)
     {
         unlink(FIFO1);
         unlink(FIFO2);
-        printf("أنهيت عملي");
+        printf("Arrêt du serveur.\n");
         exit(0);
     }
 }

@@ -10,6 +10,8 @@ int main()
     Response r;
     pid_t id = getpid();
     printf("PID du client : %d\n", (int)id);
+    /*initialisation du générateur de nombres aléatoires*/
+    srand(getpid());
     /* Ouverture des tubes nommés  */
     f1 = open(FIFO1, O_WRONLY);
     if (f1 == -1)
@@ -17,7 +19,6 @@ int main()
         perror("Erreur lors de l'ouverture du tube FIFO1");
         exit(1);
     }
-
     f2 = open(FIFO2, O_RDONLY);
     if (f2 == -1)
     {

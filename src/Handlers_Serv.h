@@ -6,19 +6,20 @@
 #include <unistd.h>
 #include <signal.h>
 
+volatile sig_atomic_t client_finished = 0;
 
-volatile sig_atomic_t client_finished=0;
+void hand_reveil(int sig)
+{
 
-void hand_reveil(int sig){
-    if (sig == SIGUSR1){
-        client_finished = 1;
-    }
+    client_finished = 1;
 }
 
-void fin_serveur(int sig){
+void fin_serveur(int sig)
+{
+
     unlink(FIFO1);
     unlink(FIFO2);
-    printf("أنهيت عملي")
+    printf("أنهيت عملي");
     exit(0);
 }
 

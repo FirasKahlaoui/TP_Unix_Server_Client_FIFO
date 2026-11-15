@@ -34,7 +34,7 @@ int main()
     printf("Wosletek el 9adhya?? %d\n", q.n);
 
     /* Attente de la réponse */
-    while (server_ready == 0)
+    while (!server_ready)
     {
         pause();
     }

@@ -37,6 +37,7 @@ int main()
     signal(SIGUSR1, hand_reveil);
     signal(SIGINT, fin_serveur);
     signal(SIGTERM, fin_serveur);
+    signal(SIGPIPE, SIG_IGN);
 
     while (1)
     {
@@ -64,17 +65,11 @@ int main()
         kill(q.pid_client, SIGUSR1);
 
         /*Waiting Loop*/
-        while (client_finished == 0)
+        while (!client_finished)
         {
             pause();
         }
     }
-
-    close(f1);
-    close(f2);
-    /*To be verified*/
-    unlink(FIFO1);
-    unlink(FIFO2);
 
     return 0;
 }

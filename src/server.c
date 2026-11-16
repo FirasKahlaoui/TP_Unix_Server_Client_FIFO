@@ -57,6 +57,15 @@ int main()
                 r.tab[i] = rand() % 500;
             }
         }
+        else if (re == 0)
+        {
+            continue;
+        }
+        else
+        {
+            perror("Erreur lors de la lecture du tube FIFO1");
+            continue;
+        }
 
         /* envoi de la réponse */
         client_finished = 0;

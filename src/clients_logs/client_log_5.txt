@@ -1,0 +1,21 @@
+PID du client : 2356
+Demande envoyée au serveur pour générer 17 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2356
+Nombre 1 : 447
+Nombre 2 : 155
+Nombre 3 : 413
+Nombre 4 : 258
+Nombre 5 : 284
+Nombre 6 : 340
+Nombre 7 : 221
+Nombre 8 : 368
+Nombre 9 : 250
+Nombre 10 : 155
+Nombre 11 : 390
+Nombre 12 : 195
+Nombre 13 : 300
+Nombre 14 : 232
+Nombre 15 : 456
+Nombre 16 : 209
+Nombre 17 : 431

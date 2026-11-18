@@ -1,0 +1,13 @@
+PID du client : 2359
+Demande envoyée au serveur pour générer 9 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2359
+Nombre 1 : 6
+Nombre 2 : 368
+Nombre 3 : 247
+Nombre 4 : 217
+Nombre 5 : 320
+Nombre 6 : 30
+Nombre 7 : 138
+Nombre 8 : 465
+Nombre 9 : 295

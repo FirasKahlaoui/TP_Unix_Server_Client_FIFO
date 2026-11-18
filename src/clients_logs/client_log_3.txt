@@ -1,0 +1,10 @@
+PID du client : 2354
+Demande envoyée au serveur pour générer 6 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2354
+Nombre 1 : 77
+Nombre 2 : 408
+Nombre 3 : 224
+Nombre 4 : 281
+Nombre 5 : 367
+Nombre 6 : 482

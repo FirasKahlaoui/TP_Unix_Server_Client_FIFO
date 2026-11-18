@@ -1,0 +1,23 @@
+PID du client : 2353
+Demande envoyée au serveur pour générer 19 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2353
+Nombre 1 : 436
+Nombre 2 : 79
+Nombre 3 : 311
+Nombre 4 : 277
+Nombre 5 : 427
+Nombre 6 : 111
+Nombre 7 : 231
+Nombre 8 : 58
+Nombre 9 : 433
+Nombre 10 : 170
+Nombre 11 : 445
+Nombre 12 : 293
+Nombre 13 : 489
+Nombre 14 : 409
+Nombre 15 : 57
+Nombre 16 : 199
+Nombre 17 : 106
+Nombre 18 : 131
+Nombre 19 : 51

@@ -1,0 +1,20 @@
+PID du client : 2355
+Demande envoyée au serveur pour générer 16 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2355
+Nombre 1 : 62
+Nombre 2 : 341
+Nombre 3 : 482
+Nombre 4 : 402
+Nombre 5 : 415
+Nombre 6 : 243
+Nombre 7 : 386
+Nombre 8 : 442
+Nombre 9 : 172
+Nombre 10 : 294
+Nombre 11 : 167
+Nombre 12 : 453
+Nombre 13 : 13
+Nombre 14 : 1
+Nombre 15 : 400
+Nombre 16 : 20

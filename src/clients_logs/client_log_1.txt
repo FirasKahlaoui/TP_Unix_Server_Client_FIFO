@@ -1,0 +1,9 @@
+PID du client : 2352
+Demande envoyée au serveur pour générer 5 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 2352
+Nombre 1 : 340
+Nombre 2 : 74
+Nombre 3 : 260
+Nombre 4 : 132
+Nombre 5 : 175

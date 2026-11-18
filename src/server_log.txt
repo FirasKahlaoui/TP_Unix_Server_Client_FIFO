@@ -1,0 +1,10 @@
+Serveur démarré et en attente de requêtes.
+Traitement de la requête du client (PID : 14478).
+Traitement de la requête du client (PID : 14479).
+Traitement de la requête du client (PID : 14480).
+Traitement de la requête du client (PID : 14481).
+Traitement de la requête du client (PID : 14482).
+Traitement de la requête du client (PID : 14483).
+Traitement de la requête du client (PID : 14484).
+Traitement de la requête du client (PID : 14485).
+Arrêt du serveur.

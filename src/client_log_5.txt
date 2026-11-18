@@ -1,0 +1,25 @@
+PID du client : 14715
+Demande envoyée au serveur pour générer 21 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 14715
+Nombre 1 : 498
+Nombre 2 : 42
+Nombre 3 : 158
+Nombre 4 : 321
+Nombre 5 : 176
+Nombre 6 : 63
+Nombre 7 : 148
+Nombre 8 : 334
+Nombre 9 : 134
+Nombre 10 : 39
+Nombre 11 : 362
+Nombre 12 : 155
+Nombre 13 : 62
+Nombre 14 : 317
+Nombre 15 : 305
+Nombre 16 : 248
+Nombre 17 : 329
+Nombre 18 : 468
+Nombre 19 : 334
+Nombre 20 : 357
+Nombre 21 : 46

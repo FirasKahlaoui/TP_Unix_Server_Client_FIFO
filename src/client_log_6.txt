@@ -1,0 +1,27 @@
+PID du client : 14716
+Demande envoyée au serveur pour générer 23 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 14716
+Nombre 1 : 119
+Nombre 2 : 100
+Nombre 3 : 212
+Nombre 4 : 82
+Nombre 5 : 436
+Nombre 6 : 199
+Nombre 7 : 165
+Nombre 8 : 110
+Nombre 9 : 297
+Nombre 10 : 65
+Nombre 11 : 108
+Nombre 12 : 340
+Nombre 13 : 75
+Nombre 14 : 429
+Nombre 15 : 16
+Nombre 16 : 139
+Nombre 17 : 430
+Nombre 18 : 202
+Nombre 19 : 273
+Nombre 20 : 469
+Nombre 21 : 64
+Nombre 22 : 428
+Nombre 23 : 383

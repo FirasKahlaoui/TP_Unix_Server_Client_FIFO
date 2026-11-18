@@ -1,0 +1,28 @@
+PID du client : 14713
+Demande envoyée au serveur pour générer 24 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 14713
+Nombre 1 : 347
+Nombre 2 : 214
+Nombre 3 : 235
+Nombre 4 : 325
+Nombre 5 : 94
+Nombre 6 : 322
+Nombre 7 : 121
+Nombre 8 : 485
+Nombre 9 : 110
+Nombre 10 : 316
+Nombre 11 : 325
+Nombre 12 : 92
+Nombre 13 : 258
+Nombre 14 : 322
+Nombre 15 : 134
+Nombre 16 : 53
+Nombre 17 : 327
+Nombre 18 : 157
+Nombre 19 : 218
+Nombre 20 : 39
+Nombre 21 : 176
+Nombre 22 : 21
+Nombre 23 : 22
+Nombre 24 : 455

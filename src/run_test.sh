@@ -15,8 +15,9 @@ while [ ! -p fifo1 ] || [ ! -p fifo2 ]; do
     sleep 0.1
 done
 
-#run 5 clients
-for i in {1..5}; do
+read -p "Enter the number of clients: " num 
+
+for ((i=1; i<=num; i++)); do
     ./client > client_log_$i.txt 2>&1 &
     client_pids+=("$!")
 done

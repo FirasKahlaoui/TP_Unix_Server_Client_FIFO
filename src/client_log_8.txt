@@ -1,0 +1,16 @@
+PID du client : 14718
+Demande envoyée au serveur pour générer 12 nombres.
+Réponse reçue du serveur.
+PID client dans la réponse : 14718
+Nombre 1 : 480
+Nombre 2 : 294
+Nombre 3 : 61
+Nombre 4 : 44
+Nombre 5 : 74
+Nombre 6 : 444
+Nombre 7 : 130
+Nombre 8 : 11
+Nombre 9 : 428
+Nombre 10 : 46
+Nombre 11 : 417
+Nombre 12 : 99
